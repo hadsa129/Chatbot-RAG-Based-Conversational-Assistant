@@ -24,15 +24,6 @@ It combines **retrieval-based search** with **generative AI (LLMs)** to deliver 
 
 The chatbot is built using the **RAG pipeline** (Retrieval-Augmented Generation):
 
- orange_chatbot/
-│
-├── app.py # Core chatbot logic (RAG pipeline)
-├── st.py # Streamlit app (user interface)
-├── load_data.py # Loads and embeds CSV data into ChromaDB
-├── data_client/ # Folder containing all CSV data files
-├── chroma_db/ # Persisted Chroma database (auto-created)
-└── README.md # Project documentation
-
 1. **Data Loading (`load_data.py`)**
    - Loads all CSV files in `data_client/`
    - Converts them into text documents
