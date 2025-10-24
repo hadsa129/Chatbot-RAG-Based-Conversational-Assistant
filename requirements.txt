@@ -1,0 +1,31 @@
+# Core Dependencies
+langchain==0.1.0
+langchain-community==0.0.10
+langchain-text-splitters==0.0.1
+langchain-ollama==0.1.2
+
+# Vector Database
+chromadb==0.4.18
+
+# Web Interface
+streamlit==1.29.0
+
+# Data Processing
+pandas>=2.0.0
+numpy>=1.24.0
+python-dotenv>=1.0.0
+
+# Utils
+tqdm>=4.65.0
+python-multipart>=0.0.6
+
+# For CSV handling
+openpyxl>=3.1.2
+
+# For API (if needed)
+fastapi>=0.100.0
+uvicorn>=0.22.0
+
+# For testing
+pytest>=7.4.0
+pytest-cov>=4.1.0
